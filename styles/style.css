@@ -4,99 +4,97 @@ body {
 }
 
 a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
+
 a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
 }
+
 a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
 }
+
 a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-footer { 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-}
-
-.all-browsers {
-  margin: 0;
-  padding: 5px;
-  background-color: black;
-}
-
-.all-browsers > h1, .browser {
-  margin: 10px;
-  padding: 5px;
-}
-
-.browser {
-  background: white;
-}
-
-.browser > h2, p {
-  margin: 4px;
-  font-size: 90%;
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 footer {
-  text-align: center;
-  padding: 3px;
-  background-color: black;
-  color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: black;
+}
 
+.all-browsers>h1,
+.browser {
+    margin: 10px;
+    padding: 5px;
+}
 
+.browser {
+    background: white;
+}
 
+.browser>h2,
+p {
+    margin: 4px;
+    font-size: 90%;
+}
 
-
-
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
 
 .container {
-  position: relative;
-  text-align: center;
-  color: white;
+    position: relative;
+    text-align: center;
+    color: white;
 }
-    
+
 .bottom-left {
-  position: absolute;
-  bottom: 4px;
-  left: 8px;
+    position: absolute;
+    bottom: 4px;
+    left: 8px;
 }
-    
+
 .top-left {
-  position: absolute;
-  top: 4px;
-  left: 8px;
+    position: absolute;
+    top: 4px;
+    left: 8px;
 }
-    
+
 .top-right {
-  position: absolute;
-  top: 4px;
-  right: 8px;
+    position: absolute;
+    top: 4px;
+    right: 8px;
 }
-    
+
 .bottom-right {
-  position: absolute;
-  bottom: 4px;
-  right: 8px;
+    position: absolute;
+    bottom: 4px;
+    right: 8px;
 }
-    
+
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
