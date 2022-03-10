@@ -4,13 +4,13 @@ body {
 }
 
 a:link {
-    color: white;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: yellow;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
