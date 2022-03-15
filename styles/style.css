@@ -31,6 +31,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: darkslategray;
 }
 
 .all-browsers {
@@ -58,7 +59,7 @@ p {
 footer {
     text-align: center;
     padding: 3px;
-    background-color: black;
+    background-color: darkslategray;
     color: white;
 }
 
@@ -98,3 +99,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+ 
+ 
